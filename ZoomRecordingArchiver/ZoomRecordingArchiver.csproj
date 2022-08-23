@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <RootNamespace>Ueshiman.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <IncludeSymbols>True</IncludeSymbols>
+    <Title>Zoom archuver Api library</Title>
+    <Authors>LLC Beans (Ueshiman)</Authors>
+    <Company>LLP Honjo Open Source</Company>
+  </PropertyGroup>
+
+</Project>
