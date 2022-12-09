@@ -348,3 +348,5 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+/ZoomRecordingArchiver/ApiCall/RecordingAccess.cs.bak
+/ZoomRecordingArchiver/ApiModel/Recording.cs.bak
