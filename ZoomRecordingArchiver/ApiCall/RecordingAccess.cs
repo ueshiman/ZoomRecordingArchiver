@@ -1,4 +1,5 @@
 ﻿using Ueshiman.ZoomRecordingArchiver.ApiModel;
+using Ueshiman.ZoomRecordingArchiver.Mapper;
 
 namespace Ueshiman.ZoomRecordingArchiver.ApiCall
 {
@@ -20,8 +21,9 @@ namespace Ueshiman.ZoomRecordingArchiver.ApiCall
 
             string recordingJson = await recordingResponse.Content.ReadAsStringAsync();
 
-            Recording? recording = System.Text.Json.JsonSerializer.Deserialize<Recording>(recordingJson);
-            return recording;
+            RecordingForJson? recording = System.Text.Json.JsonSerializer.Deserialize<RecordingForJson>(recordingJson);
+            RecordingMapper recordingMapper = new RecordingMapper();
+            return recording == null ? null : recordingMapper.RecordingMapFrom(recording);
         }
     }
 }

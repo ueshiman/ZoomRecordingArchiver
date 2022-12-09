@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.32804.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZoomRecordingArchiver", "ZoomRecordingArchiver.csproj", "{8765C62A-4F63-42F4-9853-B37897A1152E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8765C62A-4F63-42F4-9853-B37897A1152E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8765C62A-4F63-42F4-9853-B37897A1152E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8765C62A-4F63-42F4-9853-B37897A1152E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8765C62A-4F63-42F4-9853-B37897A1152E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF8A6C47-691A-413D-B118-64F4CC73740E}
+	EndGlobalSection
+EndGlobal

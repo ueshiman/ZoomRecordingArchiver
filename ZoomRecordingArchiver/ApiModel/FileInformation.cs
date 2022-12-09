@@ -1,4 +1,6 @@
-﻿namespace ZoomRecordingArchiver.ApiModel
+﻿using Ueshiman.ZoomRecordingArchiver.ApiModel;
+
+namespace ZoomRecordingArchiver.ApiModel
 {
     internal class FileInformation
     {
