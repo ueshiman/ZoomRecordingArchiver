@@ -16,7 +16,7 @@ namespace Ueshiman.ZoomRecordingArchiver.ApiCall
             string nextPageParameter = nextPageToken == null ? string.Empty : $"&next_page_token={nextPageToken}";
 
             //HttpResponseMessage recordingResponse = await meetingClient.GetAsync(@$"https://api.zoom.us/v2/users/{userId}/recordings?page_size=2&mc=false&trash=false{nextPageParameter}");
-            HttpResponseMessage recordingResponse = await meetingClient.GetAsync(@$"https://api.zoom.us/v2/users/{userId}/recordings?page_size=1&mc=false&trash=false&from={from:O}&to={to:O}{ nextPageParameter}");
+            HttpResponseMessage recordingResponse = await meetingClient.GetAsync(@$"https://api.zoom.us/v2/users/{userId}/recordings?page_size=300&mc=false&trash=false&from={from:O}&to={to:O}{ nextPageParameter}");
             //HttpResponseMessage recordingResponse = await meetingClient.GetAsync(@$"https://api.zoom.us/v2/users/{userId}/recordings?page_size=300&mc=false&trash=false&from=2020-01-01&to=2022-08-12");
 
             string recordingJson = await recordingResponse.Content.ReadAsStringAsync();
