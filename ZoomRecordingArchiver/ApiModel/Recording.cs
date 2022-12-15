@@ -32,7 +32,7 @@
         public int? recording_count { get; set; }
         public DateTimeOffset? start_time { get; set; }
         public string? topic { get; set; }
-        public int? total_size { get; set; }
+        public long? total_size { get; set; }
         public int? type { get; set; }
         public string? uuid { get; set; }
         public string? share_url { get; set; }
@@ -49,7 +49,7 @@
         public int? recording_count { get; set; }
         public DateTimeOffset? start_time { get; set; }
         public string? topic { get; set; }
-        public int? total_size { get; set; }
+        public long? total_size { get; set; }
         public int? type { get; set; }
         public string? uuid { get; set; }
         public string? share_url { get; set; }
